@@ -9,7 +9,6 @@ int main(){
         reversed=reversed*10+remainder;
         num=num/10;
     }while(num!=0);
-    printf("%d is a palindrome no:",reversed);
     if(og==reversed){
        printf("%d is a palindrome number",og);
 
